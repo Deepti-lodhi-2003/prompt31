@@ -1,0 +1,146 @@
+body, html {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://i.pinimg.com/736x/22/5e/be/225ebe6849b5714561c783f995167008.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 60px 100px; */
+    background-color:transparent;
+    margin: 50px;
+    margin-top: 30px;
+    border: 2px solid white;
+    /* border-radius: 10px; */
+}
+.left-section {
+    max-width: 550px;
+    background-color: #fff;
+    height: 540px;
+    padding: 20px 50px;
+    padding-bottom: 70px;
+}
+.left-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.profile-images {
+    display: flex;
+    /* flex-direction: column; */
+    /* gap: 1px; */
+    float: right;
+    margin-bottom: 20px;
+    margin-top: -80px;
+}
+.profile-images img {
+    /* width: 70px;
+    height: 70px;
+    border-radius: 50%; */
+}
+.img1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.img2{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: -60px;
+}
+.img3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.btn-para{
+    display: flex;
+}
+.left-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.more-btn {
+    padding: 5px 35px;
+    height: 50px;
+    font-size: 1rem;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 13px;
+}
+.stats {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+.stats div {
+    text-align: center;
+}
+.stats div strong {
+    display: block;
+    font-size: 24px;
+}
+.img-villa{
+    width: 100%;
+    height: 45%;
+    margin-top: 30px;
+}
+.right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background:transparent;
+     padding: 60px 100px;
+    color: white;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+}
+.small-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.small-box img {
+    width: 200px;
+    border-radius: 10px;
+}
+.right-section p {
+    margin: 30px 0;
+}
+.button-group button {
+    margin-right: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
