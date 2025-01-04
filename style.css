@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url('https://i.pinimg.com/736x/22/5e/be/225ebe6849b5714561c783f995167008.jpg');
+    background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
