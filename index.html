@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Booking Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
 <body>
-    <header class="nav-bar">
-        <div class="logo">TravelEase</div>
-        <nav>
-            <a href="#" class="nav-link">Home</a>
-            <a href="#" class="nav-link">Villas</a>
-            <a href="#" class="nav-link">Manor</a>
-            <a href="#" class="nav-link">Contact Us</a>
-        </nav>
-    </header>
-
     <div class="container">
         <div class="left-section">
+             <div class="left-navbar">
+                <div class="logo">TravelEase</div>
+                <i class="ri-menu-fill"></i>
+                <nav>
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Villas</a>
+                    <a href="#" class="nav-link">Manor</a>
+                </nav>
+            </div>
+
             <h1>Reserve Your  <br>  Ideal Holiday</h1>
             <div class="profile-images">
                 <img src="https://i.pinimg.com/236x/11/f4/4e/11f44e3d5621349ef69c3009bdd00f2d.jpg" alt="profile" class="img1">
@@ -37,18 +41,27 @@
             <img src="https://i.pinimg.com/736x/be/09/55/be0955295e73547a9d46aea30f337b36.jpg" alt="Melbourne Villa" class="img-villa">
         </div>
         <div class="right-section">
-            <div class="small-box">
-                <div>
-                    <h2>Melbourne VIC</h2>
-                    <p>Luxurious villa with city views and top amenities.</p>
-                </div>
-              
-            </div>
-            <p>Enjoy a luxurious vacation in one of the finest villas with breathtaking views and vibrant city life.</p>
+<div class="right-top">
+    <button class="contact-btn">Contact Us</button>
+    <i class="ri-user-line"></i>
+</div>
+
+<div class="small-box">
+    <div class="content">
+        <h2>Melbourne VIC</h2>
+        <p>Luxurious villa with city views.</p>
+    </div>
+    <img src="https://i.pinimg.com/736x/be/09/55/be0955295e73547a9d46aea30f337b36.jpg" alt="Villa Image">
+</div>
+            <div class="right-bottom">
+                <p>Enjoy a luxurious Melbourne vacation in a villa with breathtaking city views and easy access to the vivrant city life and culinary delights.</p>
             <div class="button-group">
+               <div class="right-left-btn">
                 <button>Search</button>
                 <button>Book Now</button>
-                <button>Learn More</button>
+               </div>
+                <button class="right-right-btn">Learn More</button>
+            </div>
             </div>
         </div>
     </div>
